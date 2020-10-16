@@ -1,0 +1,43 @@
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+.wrapper {
+  padding: 20px;
+}
+.slider-wrap {
+  padding: 10px;
+  margin: 0 auto;
+  width: 620px;
+  border-radius: 0px;
+  background-color: #fff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+}
+.slider-area {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  background-color: #FFF;
+  overflow: hidden;
+}
+.slider-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2400px;
+  height: 300px;
+}
+.slider-list > li { float: left; }
+.slider-ctrl-btn {
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, .8);
+  cursor: pointer;
+}
+.slider-ctrl-btn.is-prev { left: 20px; }
+.slider-ctrl-btn.is-next { right: 20px; }

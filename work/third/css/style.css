@@ -1,0 +1,41 @@
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+.wrapper {
+  padding: 20px;
+}
+.nav {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+}
+.nav > li {
+  float: left;
+  width: 33.333%;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  border-left: 1px #fff solid;
+  background-color: #ccc;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.nav > li:first-child {
+  border-left: none;
+}
+.is-hidden {
+  display: none;
+}
+.contents {
+  padding: 30px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  border: 1px #ccc solid;
+  border-top: none;
+  background-color: #fff;
+  box-sizing: border-box;
+}

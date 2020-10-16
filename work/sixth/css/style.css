@@ -1,0 +1,46 @@
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+.wrapper {
+  padding: 20px;
+}
+.register {
+  padding: 10px;
+  margin: 0 auto;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+}
+.input-wrapper {
+  position: relative;
+  margin-bottom: 10px;
+}
+.input {
+  display: block;
+  padding: 10px 30px 10px 10px;
+  width: 100%;
+  font-size: 14px;
+  background-color: #eee;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .4) inset;
+}
+.rest-count {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: #999;
+  font-family: Helvetica;
+}
+.register-btn {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: maroon;
+}
+.red {
+  color: red;
+}

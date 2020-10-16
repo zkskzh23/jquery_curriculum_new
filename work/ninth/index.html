@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="../../common/css/reset.css">
+    <link rel="stylesheet" href="../../common/css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <ul class="colorList"></ul>
+    </div>
+    <script src="../../common/js/jquery.js"></script>
+    <script>
+      // [使うメソッド]
+      // $.each(配列, function functionName() {}) 配列に対しての繰り返し処理
+      // .html() 要素の中に引数を代入する。（まずは.append() でやってみましょう）
+      // $.ajax({}) 外部ファイルやURLに対してデータをリクエストすることができます。これだけだと少しわからないと思うので下に文法を書いておきます。
+      //
+      // [文法]
+      // $.ajax({
+      //   url: './data.json'
+      // })
+      // .done(function(data) {
+      //   console.log(data);
+      // });
+      //
+      // 今回の場合は同じ階層にあるdata.jsonに対してリクエストを飛ばして、中にあるオブジェクトを取得します。
+      // そのオブジェクトは
+      // .done(function(data) {
+      //                  ↑
+      //           ここに入ってきます。
+      //
+      // そのため、次の行でconsole.log(data)をすると中身のオブジェクトが確認できます。
+      //
+      // [テンプレート]
+      // <li class="colorList__item">
+      //   <p class="colorList__title" style="background-color: ;"></p>
+      // </li>
+      //
+      // このテンプレートに取得してきた中身を入れて表示します。
+    </script>
+  </body>
+</html>

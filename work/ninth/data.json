@@ -1,0 +1,32 @@
+{
+  "colorsArray": [
+    {
+      "colorName": "lightblue",
+      "hexValue": "#ADD8E6"
+    },
+    {
+      "colorName": "lightcoral",
+      "hexValue": "#F08080"
+    },
+    {
+      "colorName": "lightgreen",
+      "hexValue": "#90EE90"
+    },
+    {
+      "colorName": "lightsalmon",
+      "hexValue": "#FFA07A"
+    },
+    {
+      "colorName": "lightskyblue",
+      "hexValue": "#87CEFA"
+    },
+    {
+      "colorName": "lightpink",
+      "hexValue": "#FFB6C1"
+    },
+    {
+      "colorName": "lightseagreen",
+      "hexValue": "#20B2AA"
+    }
+  ]
+}

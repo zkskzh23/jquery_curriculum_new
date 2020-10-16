@@ -1,0 +1,21 @@
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+.wrapper {
+  padding: 20px;
+}
+.colorList {
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ccc;
+}
+.colorList__item + .colorList__item {
+  margin-top: 10px;
+}
+.colorList__title {
+  padding: 10px;
+  color: #fff;
+  box-shadow: 0 0 2px #999 inset;
+}

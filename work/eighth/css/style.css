@@ -1,0 +1,56 @@
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+.wrapper {
+  padding: 20px;
+}
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 0;
+}
+.menu__btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.menu__btn + .menu__btn {
+  border-left: 1px #eee solid;
+}
+.contents {
+  padding: 10px;
+  margin: 100px auto;
+  width: 400px;
+  background-color: #fff;
+}
+.title {
+  padding-top: 10px;
+  margin: 0 0 20px;
+  font-size: 20px;
+}
+.scrollTopBtn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.scrollTopBtn:before {
+  position: fixed;
+  bottom: 18px;
+  right: 22px;
+  width: 15px;
+  height: 15px;
+  border-top: 4px #999 solid;
+  border-left: 4px #999 solid;
+  transform: rotate(45deg);
+  cursor: pointer;
+  content: '';
+}
